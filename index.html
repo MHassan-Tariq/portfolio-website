@@ -8,7 +8,7 @@
     <script src="./tailwind.config.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&family=PT+Serif+Caption:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 </head>
 </head>
 <body class="overflow-x-hidden font-Outfit leading-8 bg-white dark:bg-darktheme text-gray-900 dark:text-white">
@@ -21,7 +21,7 @@
     <nav class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-center  justify-between z-50">
         <img src="images/logo.png" alt="logo" class="w-28 cursor-pointer mr-14 dark:hidden">
         <img src="images/logo_dark.png" alt="logo" class="w-28 cursor-pointer mr-14 hidden dark:block">
-    <ul class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo dark:border dark:border-white/50 dark:bg-transparent">
+    <ul class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-outfit dark:border dark:border-white/50 dark:bg-transparent">
         <li><a href="#top">Home</a></li>
         <li><a href="#about">About me</a></li>
         <li><a href="#services">Services</a></li>
@@ -34,7 +34,7 @@
         <img src="./images/sun_icon.png" alt="" class="w-6 hidden dark:block">
 
     </button>
-<a href="#contact" class="hidden lg:flex items-center gap-3 px-10 py2.5 border border-gray-500 rounded-full ml-4 font-Ovo dark:border-white/50">Contact
+<a href="#contact" class="hidden lg:flex items-center gap-3 px-10 py2.5 border border-gray-500 rounded-full ml-4 font-outfit dark:border-white/50">Contact
      <img src="images/arrow-icon.png" alt="" class="w-3 dark:hidden">
      <img src="images/arrow-icon-dark.png" alt="" class="w-3 hidden dark:block">
     </a>
@@ -46,7 +46,7 @@
 </div>
 
 <!-- -----mobile menu---- -->
- <ul  id="sidemenu" class="flex md:hidden flex-col py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen gap-4 bg-rose-50 transition duration-500 font-Ovo dark:bg-darkhover dark:text-white">
+ <ul  id="sidemenu" class="flex md:hidden flex-col py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen gap-4 bg-rose-50 transition duration-500 font-outfit dark:bg-darkhover dark:text-white">
     <div class="absolute right-6 top-6" onclick="closemenu()">
         <img src="./images/close-black.png" alt="" class="w-5 cursor-pointer dark:hidden ">
 
@@ -62,21 +62,24 @@
 
 <!-- -------header------------- -->
 <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 ">
-    <img src="./images/profile-img.png" alt="" class="rounded-full w-32 mt-40">
-    <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">Hi I'm Hassan Tariq <img src="./images/hand-icon.png" alt="" class="w-6"></h3>
-    <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">fontend web developer based in Pakistan.</h1>
-    <p class="max-w-2xl mx-auto font-Ovo">I am a frontend developer from Lahore, PK with 5 year of experience in multiple companies like Microsoft,Tesla and Apple.</p>
+    <img src="./images/profile-img.png" alt="" class="rounded-full w-32 mt-10">
+    <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3 font-outfit">Hi, I'm Hassan Tariq 👋</h3>
+    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-outfit font-medium tracking-tight mb-2">
+        <span class="font-semibold whitespace-nowrap">Full Stack Engineer</span><br>
+        <span class="text-2xl sm:text-4xl lg:text-5xl whitespace-nowrap">Building Scalable SaaS & Web Applications</span>
+    </h1>
+    <p class="max-w-2xl mx-auto font-outfit">I design and develop high-performance web applications, SaaS platforms, and e-commerce systems with modern frontend and backend technologies.</p>
 
 <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
-<a href="#contact" class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820eb] to-[#da7d20] text-white flex items-center gap-2 dark:border-transparent">Contact me <img src="./images/right-arrow-white.png" alt="" class="w-4"></a>
+<a href="#contact" class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820eb] to-[#da7d20] text-white flex items-center gap-2 dark:border-transparent font-outfit">Contact me <img src="./images/right-arrow-white.png" alt="" class="w-4"></a>
 
-<a href="images/logo.png" download class="px-10 py-3 border rounded-full border bg-gray-500 flex bg-white items-center gap-2 bg-white dark:text-black">my resume <img src="./images/download-icon.png" alt="" class="w-4"></a>
+<a href="Hassan Tariq Resume.pdf" download class="px-10 py-3 border rounded-full border-gray-500 bg-white flex items-center gap-2 hover:bg-gray-50 hover:shadow-md transition-all duration-300 dark:text-black dark:border-white/20 font-outfit">my resume <img src="./images/download-icon.png" alt="" class="w-4"></a>
 </div>
 </div>
 <!-- --------about me------------- -->
 <div id="about" class="w-full px-[12%] py-10 scroll-mt-20 ">
-<h4 class="text-center mb-2 text-lg font-Ovo mt-40">Introduction</h4>
-<h2 class="text-center text-5xl font-Ovo">About me</h2>
+<h4 class="text-center mb-2 text-lg font-outfit mt-20">Introduction</h4>
+<h2 class="text-center text-5xl font-caption">About me</h2>
 <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
     <div class="max-w-max mx-auto relative">
         <img src="./images/user-image.png" alt="" class="w-64 sm:w-80 rounded-3xl max-w-none">
@@ -88,8 +91,8 @@
     </div>
 </div>
 <div class="flex-1">
-    <p class="mb-10 max-w-2xl font-Ovo">
-      I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my careeer, I have had the privilege of collaborating with prestigious organinzations, contributing to their success and growth.
+    <p class="mb-10 max-w-2xl font-outfit">
+      I am a results-driven Full Stack Engineer (MERN) with hands-on experience building SaaS products, dashboards, and scalable web applications. I work across frontend, backend, and UI/UX to create secure, performant, and user-centric digital solutions.
     </p>
     <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
     
@@ -98,25 +101,22 @@
                 <img src="./images/code-icon-dark.png" alt="" class="w-7 mt-3 hidden dark:block">
                 
                 <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Languages</h3>
-                <p class="text-gray-600 text-sm dark:text-white/80">HTML,CSS,JavaScript,
-                    React js,Next Js</p>
+                <p class="text-gray-600 text-sm dark:text-white/80">HTML, CSS, JavaScript, TypeScript<br>React.js, Next.js<br>Node.js, Express.js</p>
             </li>
         <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkhover/50">
-            <img src="./images/edu-icon.png" alt="" class="w-7 mt-3 dark:hidden">
-
-            <img src="./images/edu-icon-dark.png" alt="" class="w-7 mt-3 hidden dark:block">
+            <img src="./images/service.png" alt="" class="w-7 mt-3">
             
-            <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Education</h3>
-            <p class="text-gray-600 text-sm dark:text-white/80">B.Tech in Computer Science</p>
+            <h3 class="my-4 font-semibold text-gray-700 dark:text-white font-caption">My Services</h3>
+            <p class="text-gray-600 text-sm dark:text-white/80">Web Development<br>App Development<br>UI/UX Design</p>
         </li>
         <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkhover/50">
             <img src="./images/project-icon.png" alt="" class="w-7 mt-3 dark:hidden">
             <img src="./images/project-icon-dark.png" alt="" class="w-7 mt-3 hidden dark:block">
             <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Projects</h3>
-            <p class="text-gray-600 text-sm dark:text-white/80">Built more than 10 Projects</p>
+            <p class="text-gray-600 text-sm dark:text-white/80">SaaS Platforms<br>E-Commerce Systems<br>AI-Based Web Applications</p>
         </li>
     </ul>
-    <h4 class="my-6 text-gray-700 font-Ovo dark:text-white/80">Tools i use</h4>
+    <h4 class="mt-10 mb-6 text-gray-700 font-outfit dark:text-white/80">Tools i use</h4>
     <ul class="flex items-center gap-3 sm:gap-5">
         <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"> 
             <img src="./images/vscode.png" alt="" class="w-5 sm:w-7">
@@ -144,46 +144,137 @@
 <!-- -------servies------------- -->
 <div id="services" class="w-full px-[12%] py-10 scroll-mt-20">
     
-    <h4 class="text-center mb-2 text-lg font-Ovo">What i offer</h4>
-<h2 class="text-center text-5xl font-Ovo">My Services</h2>
-<p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-    i am a frontend developer from pakistan,Lahore with 5 year of experience in multiple companies like Microsoft,Tesla and Apple.</p>
+    <h4 class="text-center mb-2 text-lg font-outfit">What I offer</h4>
+<h2 class="text-center text-5xl font-caption">My Services</h2>
+<p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-outfit">
+    I provide end-to-end development services, from architectural design to deployment, ensuring scalable and high-performance solutions.</p>
 <div class="grid grid-cols-auto gap-6 my-10">
     <div class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hovr:shadow-white">
     <img src="./images/web-icon.png" alt="" class="w-10">
-    <h3 class="text-lg my-4 text-gray-700 dark:text-white">Web design</h3>
-    <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Web developement is the process of building, programing...</p>
-    <a href="" class="flex items-center gap-2 text-sm mt-5 ">Read more <img src="./images/right-arrow.png" alt="" class="w-4"></a>
+    <h3 class="text-lg my-4 text-gray-700 dark:text-white">Frontend Engineering</h3>
+    <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Crafting fast, responsive, and visually polished interfaces using React, Next.js, Tailwind CSS, ShadCN UI, and GSAP animations.</p>
+
 </div>
 
 <div class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hovr:shadow-white">
     <img src="./images/mobile-icon.png" alt="" class="w-10">
-    <h3 class="text-lg my-4 text-gray-700 dark:text-white">Mobile App</h3>
-    <p class="text-sm text-gray-600 leading-5 dark:text-white/80">App developement is the process of building, apps...</p>
-    <a href="" class="flex items-center gap-2 text-sm mt-5 ">Read more <img src="./images/right-arrow.png" alt="" class="w-4"></a>
+    <h3 class="text-lg my-4 text-gray-700 dark:text-white">Backend & API Development</h3>
+    <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Designing secure, scalable backend systems with Node.js, Express, MongoDB, Prisma, authentication, and RBAC.</p>
+
 </div>
 
 <div class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hovr:shadow-white">
     <img src="./images/ui-icon.png" alt="" class="w-10">
-    <h3 class="text-lg my-4 text-gray-700 dark:text-white">UI/UX design</h3>
-    <p class="text-sm text-gray-600 leading-5 dark:text-white/80">UI/UX Design is the process of building, interfaces...</p>
-    <a href="" class="flex items-center gap-2 text-sm mt-5 ">Read more <img src="./images/right-arrow.png" alt="" class="w-4"></a>
+    <h3 class="text-lg my-4 text-gray-700 dark:text-white">SaaS Product Development</h3>
+    <p class="text-sm text-gray-600 leading-5 dark:text-white/80">End-to-end SaaS solutions including dashboards, analytics, billing, subscriptions, and admin workflows.</p>
+
 </div>
 
 <div class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hovr:shadow-white">
     <img src="./images/graphics-icon.png" alt="" class="w-10">
-    <h3 class="text-lg my-4 text-gray-700 dark:text-white">Graphic design</h3>
-    <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Graphic Design is the process of building, graphic...</p>
-    <a href="" class="flex items-center gap-2 text-sm mt-5 ">Read more <img src="./images/right-arrow.png" alt="" class="w-4"></a>
+    <h3 class="text-lg my-4 text-gray-700 dark:text-white">UI/UX & Product Design</h3>
+    <p class="text-sm text-gray-600 leading-5 dark:text-white/80">User-focused interface design for SaaS dashboards and web applications using Figma and Photoshop.</p>
+
 </div>
 </div>
 </div>
+<!-- -------Core Expertise------------- -->
+<div id="expertise" class="w-full px-[12%] py-10 scroll-mt-20">
+    <h4 class="text-center mb-2 text-lg font-outfit">My Skills</h4>
+    <h2 class="text-center text-5xl font-caption">Core Expertise</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-10">
+        <div class="border border-gray-400 rounded-xl p-6 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white">
+            <h3 class="text-lg font-semibold text-gray-700 dark:text-white">Scalable SaaS Architecture</h3>
+        </div>
+        <div class="border border-gray-400 rounded-xl p-6 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white">
+            <h3 class="text-lg font-semibold text-gray-700 dark:text-white">Role-Based Access Control (RBAC)</h3>
+        </div>
+        <div class="border border-gray-400 rounded-xl p-6 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white">
+            <h3 class="text-lg font-semibold text-gray-700 dark:text-white">Payment & Subscription Systems</h3>
+        </div>
+        <div class="border border-gray-400 rounded-xl p-6 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white">
+            <h3 class="text-lg font-semibold text-gray-700 dark:text-white">REST APIs & Database Design</h3>
+        </div>
+        <div class="border border-gray-400 rounded-xl p-6 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white">
+            <h3 class="text-lg font-semibold text-gray-700 dark:text-white">Performance Optimization</h3>
+        </div>
+        <div class="border border-gray-400 rounded-xl p-6 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white">
+            <h3 class="text-lg font-semibold text-gray-700 dark:text-white">Responsive UI Systems</h3>
+        </div>
+    </div>
+</div>
+
+<!-- -------Tech Stack------------- -->
+<div id="techstack" class="w-full px-[12%] py-10 scroll-mt-20">
+    <h4 class="text-center mb-2 text-lg font-outfit">Tools & Technologies</h4>
+    <h2 class="text-center text-5xl font-caption">Tech Stack</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 my-10 font-outfit">
+        <!-- Frontend -->
+        <div class="border-[0.5px] border-gray-400 rounded-xl p-6 hover:bg-lighthover hover:shadow-black duration-500 dark:border-white dark:hover:bg-darkhover/50 dark:hover:shadow-white">
+            <h3 class="text-xl font-semibold mb-4 text-gray-700 dark:text-white">Frontend</h3>
+            <ul class="text-gray-600 dark:text-white/80 space-y-2">
+                <li>React.js</li>
+                <li>Next.js</li>
+                <li>Tailwind CSS</li>
+                <li>ShadCN UI</li>
+                <li>GSAP</li>
+            </ul>
+        </div>
+        <!-- Backend -->
+        <div class="border-[0.5px] border-gray-400 rounded-xl p-6 hover:bg-lighthover hover:shadow-black duration-500 dark:border-white dark:hover:bg-darkhover/50 dark:hover:shadow-white">
+            <h3 class="text-xl font-semibold mb-4 text-gray-700 dark:text-white">Backend</h3>
+            <ul class="text-gray-600 dark:text-white/80 space-y-2">
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>Prisma</li>
+            </ul>
+        </div>
+        <!-- Tools -->
+        <div class="border-[0.5px] border-gray-400 rounded-xl p-6 hover:bg-lighthover hover:shadow-black duration-500 dark:border-white dark:hover:bg-darkhover/50 dark:hover:shadow-white">
+            <h3 class="text-xl font-semibold mb-4 text-gray-700 dark:text-white">Tools</h3>
+            <ul class="text-gray-600 dark:text-white/80 space-y-2">
+                <li>Stripe</li>
+                <li>Nodemailer</li>
+                <li>JWT / Firebase Auth</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- -------Workflow------------- -->
+<div id="workflow" class="w-full px-[12%] py-10 scroll-mt-20">
+    <h4 class="text-center mb-2 text-lg font-outfit">Process</h4>
+    <h2 class="text-center text-5xl font-caption">How I Work</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 my-10 text-center font-outfit">
+         <div class="p-4 border border-gray-400 rounded-lg hover:-translate-y-1 hover:bg-lighthover hover:shadow-black duration-500 cursor-default dark:border-white dark:hover:bg-darkhover/50 dark:hover:shadow-white h-32 flex items-center justify-center">
+            <p class="font-semibold text-gray-700 dark:text-white">Requirement Analysis</p>
+         </div>
+         <div class="p-4 border border-gray-400 rounded-lg hover:-translate-y-1 hover:bg-lighthover hover:shadow-black duration-500 cursor-default dark:border-white dark:hover:bg-darkhover/50 dark:hover:shadow-white h-32 flex items-center justify-center">
+            <p class="font-semibold text-gray-700 dark:text-white">UI/UX Design</p>
+         </div>
+         <div class="p-4 border border-gray-400 rounded-lg hover:-translate-y-1 hover:bg-lighthover hover:shadow-black duration-500 cursor-default dark:border-white dark:hover:bg-darkhover/50 dark:hover:shadow-white h-32 flex items-center justify-center">
+            <p class="font-semibold text-gray-700 dark:text-white">Frontend Development</p>
+         </div>
+         <div class="p-4 border border-gray-400 rounded-lg hover:-translate-y-1 hover:bg-lighthover hover:shadow-black duration-500 cursor-default dark:border-white dark:hover:bg-darkhover/50 dark:hover:shadow-white h-32 flex items-center justify-center">
+            <p class="font-semibold text-gray-700 dark:text-white">Backend & API</p>
+         </div>
+         <div class="p-4 border border-gray-400 rounded-lg hover:-translate-y-1 hover:bg-lighthover hover:shadow-black duration-500 cursor-default dark:border-white dark:hover:bg-darkhover/50 dark:hover:shadow-white h-32 flex items-center justify-center">
+            <p class="font-semibold text-gray-700 dark:text-white">Testing & Optimization</p>
+         </div>
+         <div class="p-4 border border-gray-400 rounded-lg hover:-translate-y-1 hover:bg-lighthover hover:shadow-black duration-500 cursor-default dark:border-white dark:hover:bg-darkhover/50 dark:hover:shadow-white h-32 flex items-center justify-center">
+            <p class="font-semibold text-gray-700 dark:text-white">Deployment & Support</p>
+         </div>
+    </div>
+</div>
+
 <!-- -------my work------------- -->
 <div id="work" class="w-full px-[12%] py-10 scroll-mt-20">
     
-    <h4 class="text-center mb-2 text-lg font-Ovo">My Portfolio</h4>
-<h2 class="text-center text-5xl font-Ovo">My latest work</h2>
-<p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+    <h4 class="text-center mb-2 text-lg font-outfit">My Portfolio</h4>
+<h2 class="text-center text-5xl font-caption">My latest work</h2>
+<p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-outfit">
  Welcome to my web developement Portfolio! Explore a collection of Projects showcasing my expertise in front-end developement</p>
 <div class="grid grid-cols-auto my-10 gap-5 dark:text-black">
 
@@ -191,10 +282,10 @@
 
     <div class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
 <div>
-    <h2 class="font-semibold">Frontend Project</h2>
-    <p class="text-sm text-gray-700">Web Design</p>
+    <h2 class="font-semibold">LPG Nexus — SaaS Platform</h2>
+    <p class="text-sm text-gray-700">SaaS Platform</p>
 </div>
-<div class="border rounded-full border-black w-9
+<div class="border rounded-full border-black w-10
 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
     <img src="./images/send-icon.png" alt="" class="w-5">
 </div>
@@ -203,71 +294,90 @@ aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hov
 <!-- --------------- -->
  
 
-<div class="aspect-square bg-[url('./images/work-2.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+<a href="https://final-fyp-gold.vercel.app/" target="_blank" rel="noopener noreferrer" class="block aspect-square bg-[url('./images/work-2.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
 
     <div class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
 <div>
-    <h2 class="font-semibold">Geo Base App</h2>
-    <p class="text-sm text-gray-700">Mobile App</p>
+    <h2 class="font-semibold">Recommendation System</h2>
+    <p class="text-sm text-gray-700">AI-Based Platform</p>
 </div>
-<div class="border rounded-full border-black w-9
+<div class="border rounded-full border-black w-10
 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
     <img src="./images/send-icon.png" alt="" class="w-5">
 </div>
  </div>
-</div>
+</a>
 
 <!-- --------------- -->
  <!-- --------------- -->
  
 
-<div class="aspect-square bg-[url('./images/work-3.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+<a href="https://superlative-klepon-f17416.netlify.app/" target="_blank" rel="noopener noreferrer" class="block aspect-square bg-[url('./images/work-3.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
 
     <div class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
 <div>
-    <h2 class="font-semibold">Photography Site</h2>
-    <p class="text-sm text-gray-700">Photo Maniupulation</p>
+    <h2 class="font-semibold">E-Learning E-Commerce</h2>
+    <p class="text-sm text-gray-700">Marketplace</p>
 </div>
-<div class="border rounded-full border-black w-9
+<div class="border rounded-full border-black w-10
 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
     <img src="./images/send-icon.png" alt="" class="w-5">
 </div>
  </div>
-</div>
+</a>
 
 <!-- --------------- -->
  <!-- --------------- -->
  
 
-<div class="aspect-square bg-[url('./images/work-4.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+<a href="https://deluxe-mochi-ec910e.netlify.app/" target="_blank" rel="noopener noreferrer" class="block aspect-square bg-[url('./images/work-4.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
 
     <div class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
 <div>
-    <h2 class="font-semibold">UI/UX Design</h2>
-    <p class="text-sm text-gray-700">Figma Design</p>
+    <h2 class="font-semibold">Tesla Website Clone</h2>
+    <p class="text-sm text-gray-700">Frontend Clone</p>
 </div>
-<div class="border rounded-full border-black w-9
+<div class="border rounded-full border-black w-10
 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
     <img src="./images/send-icon.png" alt="" class="w-5">
 </div>
  </div>
-</div>
+</a>
 
 <!-- --------------- -->
 </div>
-<a href="" class="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lighthover duration-500 dark:text-white dark:border-white dark:hover:bg-darkhover">Show more 
+<a href="#" class="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lighthover duration-500 dark:text-white dark:border-white dark:hover:bg-darkhover">Show more 
     <img src="./images/right-arrow-bold.png" alt="" class="w-4 dark:hidden">
     <img src="./images/right-arrow-bold-dark.png" alt="" class="w-4 hidden dark:block">
 </a>
  </div>
  <!-- -------contact------------- -->
+ <!-- -------Experience------------- -->
+<div id="experience" class="w-full px-[12%] py-10 scroll-mt-20">
+    <h4 class="text-center mb-2 text-lg font-outfit">My Journey</h4>
+    <h2 class="text-center text-5xl font-caption">Professional Experience</h2>
+    
+    <div class="max-w-3xl mx-auto mt-12 relative border-l border-gray-400 ml-4 md:mx-auto space-y-12">
+        <div class="relative pl-8">
+            <h3 class="text-xl font-semibold text-gray-700 dark:text-white">Full Stack Engineer — Solinovation</h3>
+            <p class="text-gray-600 dark:text-white/80 mt-2">Developing SaaS platforms, dashboards, payment systems, and scalable MERN stack applications.</p>
+            <span class="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-gray-600 dark:bg-white"></span>
+        </div>
+        <div class="relative pl-8">
+            <h3 class="text-xl font-semibold text-gray-700 dark:text-white">Visiting Instructor — NUML University</h3>
+            <p class="text-gray-600 dark:text-white/80 mt-2">Taught UI/UX and Photoshop, mentoring students in design thinking and practical workflows.</p>
+            <span class="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-gray-600 dark:bg-white"></span>
+        </div>
+    </div>
+</div>
+
   <div id="contact" class="w-full px-[12%] py-10 scroll-mt-20 bg-[url('./images/footer-bg-color.png')] bg-no-repeat bg-[length:90%_auto] bg-center dark:bg-none">
-    <h4 class="text-center mb-2 text-lg font-Ovo">Connect with me</h4>
-    <h2 class="text-center text-5xl font-Ovo">Get in touch</h2>
-    <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-        I'd love to hear from you! if you have any questions,comments or feedback,please use the form below.</p>
-        <form method="POST" action="https://api.web3forms.com/submit" class="max-w-2xl mx-auto">
-            <input type="hidden" name="access_key" value="829a94af-61be-494a-b193-38d29346f53a">
+    <h4 class="text-center mb-2 text-lg font-outfit">Connect with me</h4>
+    <h2 class="text-center text-5xl font-caption">Get in touch</h2>
+    <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-outfit">
+        Have an idea or a project in mind? Let’s build a scalable, high-impact digital product together.
+    </p>
+        <form method="POST" action="https://formsubmit.co/mhassantariqit@gmail.com" class="max-w-2xl mx-auto">
             <div class="grid grid-cols-auto gap-6 mt-6 mb-8">
                 <input type="text" placeholder="Enter your name" class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkhover/30 dark:border-white/90 required" name="name" id="">
                 <input type="email" placeholder="Enter your email" class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkhover/30 dark:border-white/90 required" name="email" id="">
@@ -285,11 +395,11 @@ aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hov
         <div class="w-max flex items-center gap-2 mx-auto">
             <img src="./images/mail_icon.png" alt="" class="w-6 dark:hidden">
             <img src="./images/mail_icon.png" alt="" class="w-6 hidden dark:block">
-            hassanit1192@gmail.com
+            mhassantariqit@gmail.com
         </div>
     </div>
     <div class="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-    <p>2025 Hassan Tariq. All rights reserved.</p>
+    <p>2026 Hassan Tariq. All rights reserved.</p>
     <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
         
         <li><a href="https://github.com/MHassan-Tariq">GitHub</a></li> 

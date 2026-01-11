@@ -7,12 +7,13 @@ tailwind.config = {
         fontFamily: {
           outfit: ["Outfit", "sans-serif"],
           Ovo: ["Ovo", "serif"],
+          caption: ["PT Serif Caption", "serif"],
         },
         animation: {
           spin_slow: "spin 6s linear infinite",
         },
         colors: {
-          lighthover: "#fcf4ff",
+          lighthover: "#f3f4f6",
           darkhover: "#2a004a",
           darktheme: "#000",
         },
