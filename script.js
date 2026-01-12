@@ -18,8 +18,8 @@ function toggletheme() {
 }
 
 // Check local storage or system preference on load
-if (localStorage.theme === "light") {
-  document.documentElement.classList.remove("dark");
-} else {
+if (localStorage.theme === "dark") {
   document.documentElement.classList.add("dark");
+} else {
+  document.documentElement.classList.remove("dark");
 }
